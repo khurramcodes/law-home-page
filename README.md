@@ -1,4 +1,4 @@
-# Food Restaurant Home Page
+# Law Home Page
 
 ![name](https://img.shields.io/badge/Khurram-Iqbal-blue)
 
