@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+header{
+    /* height: 100vh; */
+    background-color: #2B2922;
+}
+
+nav{
+    height: 50px;
+    padding-top: 40px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+nav .logo{
+    float: left;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav .nav-right{
+    float: right;
+}
+
+.nav-right ul{
+    float: left;
+    padding: 10px 0;
+}
+
+.nav-right ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.nav-right ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .5;
+}
+
+.nav-right button{
+    background-color: transparent;
+    border: 1px solid #A08F36;
+    color: #A08F36;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/* Hero */
+
+.hero h1{
+    float: left;
+    width: 70%;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.hero p{
+    float: right;
+    width: 30%;
+    color: #ffffff;
+    font-size: 15px;
+    opacity: .6;
+    font-weight: 300;
+    padding: 25px 0;
+    line-height: 22px;
+}
+
+/* Banner */
+
+.banner img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 50px;
+}
+
+/* Indicators */
+
+.indicators{
+    display: flex;
+    justify-content: flex-end;
+    color: #ffffff;
+    margin-top: -4px;
+}
+
+.fa-chevron-left{
+    border: 1px solid #A08F36;
+    padding: 8px 11px;
+    border-radius: 50%;
+    color: #A08F36;
+}
+
+.fa-chevron-right{
+    border: 1px solid #ffffff;
+    padding: 8px 11px;
+    border-radius: 50%;
+}
+
+.left{
+    width: 60px;
+    height: 60px;
+    background-color: #39372D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    width: 60px;
+    height: 60px;
+    background-color: #A08F36;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
